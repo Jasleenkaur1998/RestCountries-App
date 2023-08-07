@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import HomePage from './components/pages/homePage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-      <p>My first React App</p>
-    </div>
+    <HomePage />
   );
 }
 
