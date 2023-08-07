@@ -1,9 +1,10 @@
 import React from "react";
+import HeaderComponent from "../header";
 
 export default function HomePage() {
   return (
     <>
-      <h2>Countries Info</h2>
+      <HeaderComponent />
     </>
   );
 }
